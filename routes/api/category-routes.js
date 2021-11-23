@@ -72,17 +72,18 @@ router.delete('/:id', async (req, res) => {
   try {
     const categorieData= await Category.destroy({
       where: {
-        id: req.params.id,
+        id: parseInt(req.params.id),
       },
     });
 
     if (!categorieData) {
-      res.status(404).json({ message: 'No library card found with that id!' });
+      res.status(404).json({ message: 'No category found with that id!' });
       return;
     }
 
-    res.status(200).json(libraryCardData);
+    res.status(200).json(categorieData);
   } catch (err) {
+    console.log(err)
     res.status(500).json(err);
   }
 });
