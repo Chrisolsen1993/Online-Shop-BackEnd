@@ -16,13 +16,13 @@ Online-Shop-BackEnd  is an e-commerce Back-End aplication that use Express.js AP
 ## Mock-Up
 
 
-![Employee-Tracker ](./Emp.png)
+![Online-shop ](./back-end.png)
 
 
 ## Review
 
 * Video demo that showcase the utilization of the app
-  * [demo](https://watch.screencastify.com/v/NaKtlWTMKKu3IKk9soZk)
+  * [demo](https://watch.screencastify.com/v/LBBdJ9LnOpdETEjEXCox)
 
 * The URL of the GitHub repository 
 * [Repository](https://github.com/Chrisolsen1993/Online-Shop-BackEnd)
